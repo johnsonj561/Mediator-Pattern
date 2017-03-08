@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_CsrJYAOSEeeTBKxoY0Y4VQ" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_Hvp7EAOSEeeTBKxoY0Y4VQ" name=""/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IE81oAOSEeeTBKxoY0Y4VQ" name="ConcreteMediator">
+    <generalization xmi:id="_SVrzsAOUEeeTBKxoY0Y4VQ" general="_IHyHMAOSEeeTBKxoY0Y4VQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IHyHMAOSEeeTBKxoY0Y4VQ" name="Mediator"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JaRp0AOSEeeTBKxoY0Y4VQ" name="Colleague"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jwn2AwOTEeeTBKxoY0Y4VQ" name="mediator_colleague_1" memberEnd="_jwn2BAOTEeeTBKxoY0Y4VQ _jwn2AAOTEeeTBKxoY0Y4VQ">
+    <ownedEnd xmi:id="_jwn2BAOTEeeTBKxoY0Y4VQ" name="mediator" type="_IHyHMAOSEeeTBKxoY0Y4VQ" association="_jwn2AwOTEeeTBKxoY0Y4VQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jwn2BQOTEeeTBKxoY0Y4VQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jwn2BgOTEeeTBKxoY0Y4VQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_jwn2AAOTEeeTBKxoY0Y4VQ" name="colleague" type="_JaRp0AOSEeeTBKxoY0Y4VQ" association="_jwn2AwOTEeeTBKxoY0Y4VQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jwn2AQOTEeeTBKxoY0Y4VQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jwn2AgOTEeeTBKxoY0Y4VQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LcB0QAOUEeeTBKxoY0Y4VQ" name="ConcreteColleageu1">
+    <generalization xmi:id="_RgOLUAOUEeeTBKxoY0Y4VQ" general="_JaRp0AOSEeeTBKxoY0Y4VQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MtMhMAOUEeeTBKxoY0Y4VQ" name="ConcreteColleague2">
+    <generalization xmi:id="_R09FMAOUEeeTBKxoY0Y4VQ" general="_JaRp0AOSEeeTBKxoY0Y4VQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Tm15kwOUEeeTBKxoY0Y4VQ" name="concreteMediator_concreteColleageu1_1" memberEnd="_Tm15lAOUEeeTBKxoY0Y4VQ _Tm15kAOUEeeTBKxoY0Y4VQ">
+    <ownedEnd xmi:id="_Tm15lAOUEeeTBKxoY0Y4VQ" name="concreteMediator" type="_IE81oAOSEeeTBKxoY0Y4VQ" association="_Tm15kwOUEeeTBKxoY0Y4VQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tm15lQOUEeeTBKxoY0Y4VQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tm15lgOUEeeTBKxoY0Y4VQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Tm15kAOUEeeTBKxoY0Y4VQ" name="concreteColleageu1" type="_LcB0QAOUEeeTBKxoY0Y4VQ" association="_Tm15kwOUEeeTBKxoY0Y4VQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tm15kQOUEeeTBKxoY0Y4VQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tm15kgOUEeeTBKxoY0Y4VQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VZSuowOUEeeTBKxoY0Y4VQ" name="concreteMediator_concreteColleague2_1" memberEnd="_VZSupAOUEeeTBKxoY0Y4VQ _VZSuoAOUEeeTBKxoY0Y4VQ">
+    <ownedEnd xmi:id="_VZSupAOUEeeTBKxoY0Y4VQ" name="concreteMediator" type="_IE81oAOSEeeTBKxoY0Y4VQ" association="_VZSuowOUEeeTBKxoY0Y4VQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VZSupQOUEeeTBKxoY0Y4VQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VZSupgOUEeeTBKxoY0Y4VQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_VZSuoAOUEeeTBKxoY0Y4VQ" name="concreteColleague2" type="_MtMhMAOUEeeTBKxoY0Y4VQ" association="_VZSuowOUEeeTBKxoY0Y4VQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VZSuoQOUEeeTBKxoY0Y4VQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VZSuogOUEeeTBKxoY0Y4VQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

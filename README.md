@@ -6,8 +6,8 @@ Notes below regarding mediator pattern taken from "Design Patterns - Elements of
 By Gamma, Helm, Johnson, Vlissides
 
 Example Code provided by Derek Banas:
-Tutorial: 
-Source Code: 
+Tutorial: https://www.youtube.com/watch?v=8DxIpdKd41A&t=663s
+Source Code: http://goo.gl/A9Vws
 
 Author: Justin J
 
